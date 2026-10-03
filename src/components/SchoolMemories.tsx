@@ -45,7 +45,13 @@ export default function SchoolMemories({ onNext }: SchoolMemoriesProps) {
               Memory {num}
             </h3>
             <p className="font-serif text-lg leading-relaxed text-neutral-600">
-              [School Memory {num} placeholder. The actual memory will be added here later. It will describe something funny, nostalgic, or meaningful from our school days.]
+              [Remember 8th Std S.S notebook submission?
+               So at that time mari almost half book lakhvani baki hati and mam e almost badha boys ne class ni bahar besadiya ta and jya sudhi compelete nai thay tya sudhi java nata devana.
+               So we thought k mam (Rama mam) masti karta hase and then 8th period ni bell vagi ane jenu complete hase ene java didha.
+               Jenu baki hase enu check karva Shree Neha mam ne appoint kariya ta. And that time i didnt exepect k tu mane bachai lais . Like te vakhte aapde sarkhi rite vaat pan nata karta.
+               So tu mane Mam pase lai gai and mam bija koi jode vaat karvama busy hata .
+               And at that moment i was like "E neha keh ne mam ne keh ne . And tu bi akrai ne haa have kau chu ne shanti rakh" and aa vastu me tane koni mari ne kehto hato 😂😂😂.
+               Ej time thi mane thayu khotu ane jode atla time thi kutra bilada ni jem jhagadto hato. Aam to chokri sari che .😂😂]
             </p>
           </div>
         ))}
