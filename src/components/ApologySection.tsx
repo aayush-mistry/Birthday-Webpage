@@ -45,10 +45,12 @@ export default function ApologySection({ onNext }: ApologySectionProps) {
         </p>
         <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90 opacity-80">
           [Mane haji pan yaad che e jhagda vakte tu mane call kari kari ne samjhav ti hati k na karis jhagdo nitar badhu kharab thai jase. And e vakhte hu na maniyo,me e ek jhagda na lidhe badhu ghumavi didhu.
-          And e vakhte thi e Neha jene mari sathe comfort feel thatu hatu e bi ene bi ghumavi didhu. From that movement ek ek karine hu almost mara badha loved ones ne ghumavi didha. ]
+          And e vakhte thi e Neha jene mari sathe comfort feel thatu hatu e bi ene bi ghumavi didhu. From that movement ek ek karine hu almost mara badha loved ones ne ghumavi didha. Mane haji e vaat no regret che k kadach me jhagdo na kariyo hot to aaje life alag aj hot.
+          But thik che this is what i deserve.]
         </p>
         <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90 opacity-70">
-          [Asking you to forgive me.]
+          [NEHA I AM REALLY SORRY FOR EVERYTHING.EK EK WORD JENE TENE TANE HURT KARIYU HOI ,JENA KARANE ME TANE TU RADI HOI,I AM REALLY VERY SORRYYY.
+          BBYE🙂.]
         </p>
       </motion.div>
 
