@@ -19,10 +19,10 @@ export default function ApologySection({ onNext }: ApologySectionProps) {
         transition={{ delay: 1, duration: 1.5 }}
         className="font-sans text-xl text-white/50 tracking-widest mb-16"
       >
-        Okay... jokes apart.
+        Okay... I also realized there are some things I wish I could have done differently.
       </motion.p>
       
-      <motion.h2 
+      <motion.h2  
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 3, duration: 2 }}
@@ -41,10 +41,11 @@ export default function ApologySection({ onNext }: ApologySectionProps) {
         <div className="absolute top-0 left-12 w-[1px] h-8 bg-white/20 -translate-y-1/2"></div>
         
         <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90">
-          [Apology message will be added here.]
+          [I know ke me je bhulo kari hati ena mate hu maafi deserve nathi karto. And kadach e bhulo na karane tu mane yaad to karis🙂.]
         </p>
         <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90 opacity-80">
-          [It will be about apologizing for things I have done that hurt you, childish mistakes, and times I made you cry.]
+          [Mane haji pan yaad che e jhagda vakte tu mane call kari kari ne samjhav ti hati k na karis jhagdo nitar badhu kharab thai jase. And e vakhte hu na maniyo,me e ek jhagda na lidhe badhu ghumavi didhu.
+          And e vakhte thi e Neha jene mari sathe comfort feel thatu hatu e bi ene bi ghumavi didhu. From that movement ek ek karine hu almost mara badha loved ones ne ghumavi didha. ]
         </p>
         <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90 opacity-70">
           [Asking you to forgive me.]
