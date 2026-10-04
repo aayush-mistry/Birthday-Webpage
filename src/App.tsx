@@ -14,10 +14,6 @@ function App() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const startExperience = () => {
-    if (audioRef.current) {
-      audioRef.current.play().catch(e => console.log('Audio play failed', e));
-      setIsMusicPlaying(true);
-    }
     setCurrentSection('photos');
   };
 
@@ -34,9 +30,11 @@ function App() {
 
   const advanceSection = (nextSection: Section) => {
     setCurrentSection(nextSection);
-    // Increase volume for birthday reveal if playing
+    // Start music and increase volume for birthday reveal
     if (nextSection === 'birthday' && audioRef.current) {
       audioRef.current.volume = 1.0;
+      audioRef.current.play().catch(e => console.log('Audio play failed', e));
+      setIsMusicPlaying(true);
     }
   };
 
@@ -50,11 +48,11 @@ function App() {
     <div className="min-h-screen bg-dark text-accent flex flex-col font-sans transition-colors duration-1000">
       <audio 
         ref={audioRef} 
-        src="/assets/audio/happy-birthday.mp3" 
+        src="/the_mountain-happy-birthday-508020.mp3" 
         loop
       />
       
-      {currentSection !== 'opening' && (
+      {currentSection === 'birthday' && (
         <MusicController isPlaying={isMusicPlaying} toggle={toggleMusic} />
       )}
 

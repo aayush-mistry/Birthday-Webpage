@@ -49,7 +49,7 @@ export default function ApologySection({ onNext }: ApologySectionProps) {
           But thik che this is what i deserve.]
         </p>
         <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90 opacity-70">
-          [NEHA I AM REALLY SORRY FOR EVERYTHING.EK EK WORD JENE TENE TANE HURT KARIYU HOI ,JENA KARANE ME TANE TU RADI HOI,I AM REALLY VERY SORRYYY.
+          [NEHA I AM REALLY SORRY FOR EVERYTHING.EK EK WORD JENE TANE HURT KARIYU HOI ,JENA KARANE TU RADI HOI,I AM REALLY VERY SORRYYY.
           BBYE🙂.]
         </p>
       </motion.div>

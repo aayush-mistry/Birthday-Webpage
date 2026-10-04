@@ -92,7 +92,7 @@ export default function BirthdayReveal() {
               transition={{ delay: 1.5, duration: 2 }}
               className="font-handwriting text-5xl md:text-7xl text-[#f0e6d2] mb-16"
             >
-              [HER NAME]
+              [NEHA!!!❤️‍🩹]
             </motion.h2>
 
             <motion.div
@@ -105,10 +105,9 @@ export default function BirthdayReveal() {
                 <div className="absolute inset-0 flex items-center justify-center text-neutral-600 text-sm">
                   Final Photo Placeholder
                   <br />
-                  /assets/images/final-photo.jpg
                 </div>
                 <img 
-                  src="/assets/images/final-photo.jpg" 
+                  src="/n3.jpeg" 
                   alt="Birthday Girl" 
                   className="w-full h-full object-cover relative z-10"
                   onError={(e) => {

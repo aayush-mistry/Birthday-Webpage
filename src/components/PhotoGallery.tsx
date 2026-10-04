@@ -7,11 +7,11 @@ interface PhotoGalleryProps {
 
 // These are placeholder image paths as requested
 const photos = [
-  '/assets/images/photo1.jpg',
-  '/assets/images/photo2.jpg',
-  '/assets/images/photo3.jpg',
-  '/assets/images/photo4.jpg',
-  '/assets/images/photo5.jpg',
+  '/n1.jpeg',
+  '/n2.jpeg',
+  '/n4.jpeg',
+  '/n5.jpeg',
+  '/n6.jpeg',
 ];
 
 const captions = [
@@ -58,16 +58,10 @@ export default function PhotoGallery({ onNext }: PhotoGalleryProps) {
             style={{ rotate: `${rotations[currentIndex % rotations.length]}deg` }}
           >
             <div className="aspect-[3/4] w-full bg-neutral-800 overflow-hidden relative border border-white/10 flex items-center justify-center">
-              {/* Image placeholder for development */}
-              <div className="absolute inset-0 bg-neutral-900 flex items-center justify-center text-neutral-600 text-sm">
-                Image Placeholder
-                <br />
-                {photos[currentIndex]}
-              </div>
               <img 
                 src={photos[currentIndex]} 
                 alt="Memory" 
-                className="w-full h-full object-cover relative z-10 opacity-50"
+                className="w-full h-full object-cover relative z-10"
                 onError={(e) => {
                   (e.target as HTMLImageElement).style.display = 'none';
                 }}
