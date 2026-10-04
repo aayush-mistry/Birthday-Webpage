@@ -28,7 +28,7 @@ export default function ApologySection({ onNext }: ApologySectionProps) {
         transition={{ delay: 3, duration: 2 }}
         className="font-serif text-3xl md:text-5xl leading-tight mb-16"
       >
-        There are some things I've wanted to say.
+        There is something I wanted to say.
       </motion.h2>
 
       <motion.div 
@@ -45,8 +45,8 @@ export default function ApologySection({ onNext }: ApologySectionProps) {
         </p>
         <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90 opacity-80">
           [Mane haji pan yaad che e jhagda vakte tu mane call kari kari ne samjhav ti hati k na karis jhagdo nitar badhu kharab thai jase. And e vakhte hu na maniyo,me e ek jhagda na lidhe badhu ghumavi didhu.
-          And e vakhte thi e Neha jene mari sathe comfort feel thatu hatu e bi ene bi ghumavi didhu. From that movement ek ek karine hu almost mara badha loved ones ne ghumavi didha. Mane haji e vaat no regret che k kadach me jhagdo na kariyo hot to aaje life alag aj hot.
-          But thik che this is what i deserve.]
+          And e vakhte thi e Neha jene mari sathe comfort feel thatu hatu e bi ene bi ghumavi didhu. From that moment ek ek karine hu almost mara badha loved ones ne ghumavi didha. Mane haji e vaat no regret che k kadach me jhagdo na kariyo hot to aaje life alag aj hot.
+          But thik che this is what I deserve.]
         </p>
         <p className="font-serif text-xl md:text-2xl leading-relaxed text-white/90 opacity-70">
           [NEHA I AM REALLY SORRY FOR EVERYTHING.EK EK WORD JENE TANE HURT KARIYU HOI ,JENA KARANE TU RADI HOI,I AM REALLY VERY SORRYYY.
