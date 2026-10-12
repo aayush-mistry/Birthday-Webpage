@@ -92,7 +92,7 @@ export default function BirthdayReveal() {
               transition={{ delay: 1.5, duration: 2 }}
               className="font-handwriting text-5xl md:text-7xl text-[#f0e6d2] mb-16"
             >
-              [NEHA!!!❤️‍🩹]
+              [Name!!!]
             </motion.h2>
 
             <motion.div
